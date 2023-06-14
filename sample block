@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sample Blockchain</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    
+    .block {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .block .hash {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .block .data {
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sample Blockchain</h1>
+  
+  <div class="block">
+    <div class="hash">Block Hash: 0000abcd1234</div>
+    <div class="data">Data: Lorem ipsum dolor sit amet</div>
+  </div>
+  
+  <div class="block">
+    <div class="hash">Block Hash: abcd1234efgh</div>
+    <div class="data">Data: Consectetur adipiscing elit</div>
+  </div>
+  
+  <div class="block">
+    <div class="hash">Block Hash: 1234ijklmnop</div>
+    <div class="data">Data: Nulla dapibus feugiat lectus</div>
+  </div>
+  
+  <div class="block">
+    <div class="hash">Block Hash: qrst5678uvwx</div>
+    <div class="data">Data: Vestibulum ac sollicitudin metus</div>
+  </div>
+</body>
+</html>
